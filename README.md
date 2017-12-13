@@ -16,6 +16,12 @@ We assume that participants will have access to
 
 * [Julia v0.6.1](https://julialang.org/downloads/)
 * [IJulia](https://github.com/JuliaLang/IJulia.jl) and [Jupyter notebooks](https://jupyter.org/): type `Pkg.add("IJulia")` in the Julia REPL
+  - Optional: [RISE](https://github.com/damianavila/RISE), a Jupyter extension which lets you convert notebooks (which are already in slide format) to slides within the browser and run code blocks in the slides. After installing IJulia, run in the Julia REPL:
+    ```julia
+    using Conda
+    Conda.add_channel("damianavila82")
+    Conda.add("rise")
+    ```
 * [DSGE](https://github.com/FRBNY-DSGE/DSGE.jl): type `Pkg.add("DSGE")` in the Julia REPL
 
 ## Resources
