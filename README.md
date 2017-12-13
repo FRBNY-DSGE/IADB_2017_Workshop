@@ -1,4 +1,5 @@
-# IADB_2017_Workshop
+# Macroeconomic Modeling with Julia
+
 Code and teaching material for "Macroeconomic Modeling with Julia", a workshop given for the IADB at the Central Bank of Argentina in December 2017.
 
 ## Tentative Outline
