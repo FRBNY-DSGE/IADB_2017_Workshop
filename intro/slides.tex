@@ -173,9 +173,9 @@
 
 
 \title{Macroeconomic Modeling with Julia}
-\author{Erica Moszkowski}
-\institute[FRBNY]{Federal Reserve Bank of New York}
-\date{June 27, 2017}
+\author{Pearl Li}
+\institute[New York Fed]{Federal Reserve Bank of New York}
+\date{December 18, 2017}
 
 \begin{document}
 \maketitle
@@ -186,9 +186,8 @@
 
   \begin{itemize}
     \setlength\itemsep{1em}
-    \item Conference organizers
-    \item DSGE team at the FRBNY
-    \item Mary McCann
+    \item Cristina Griffa and workshop organizers
+    \item DSGE team at the New York Fed
     \item John Stachurski, for much of the content on these slides
     \item You all for being here
   \end{itemize}
@@ -199,12 +198,8 @@
 
   \begin{itemize}
     \setlength\itemsep{1em}
-    \item \boldblue{Chase Coleman}: Graduate student at NYU Stern, developer at QuantEcon \\
-    \item \boldblue{Abhi Gupta}: Senior Research Analyst at FRBNY \\
-    \item \boldblue{Pearl Li }: Senior Research Analyst at FRBNY \\
-    \item \boldblue{Spencer Lyon}: Graduate student at NYU Stern, lead developer at QuantEcon \\
-    \item \boldblue{Erica Moszkowski}: Senior Research Analyst at FRBNY
-
+    \item \boldblue{Abhi Gupta}: Senior Research Analyst at New York Fed
+    \item \boldblue{Pearl Li }: Senior Research Analyst at New York Fed
   \end{itemize}
 \end{frame}
 
@@ -233,31 +228,20 @@
 \begin{frame}
   \frametitle{Schedule}
 
-  \boldblue{Part 1}
+  \boldblue{Day 1}
   %
   \begin{itemize}
-    \item Introduction and overview (Erica)
+    \item Introduction to Julia (Pearl)
+    \item Julia syntax (Abhi)
+    \item Types and multiple dispatch (Pearl)
   \end{itemize}
 
   \vspace{1em}
-  \boldblue{Part 2}
+  \boldblue{Day 2}
   %
   \begin{itemize}
-    \item The Julia language (Abhi)
-  \end{itemize}
-
-  \vspace{1em}
-  \boldblue{Part 3}
-  %
-  \begin{itemize}
-    \item Julia for economists -- libraries and features (Chase and Spencer)
-  \end{itemize}
-
-  \vspace{1em}
-  \boldblue{Part 4}
-  %
-  \begin{itemize}
-    \item DSGE modeling with Julia (Pearl)
+    \item Julia for economists -- packages and libraries (Abhi)
+    \item State-space routines (Abhi) and DSGE.jl (Pearl)
   \end{itemize}
 \end{frame}
 
@@ -266,7 +250,7 @@
   \frametitle{Resources}
 
   \begin{center}
-  \href{http://github.com/FRBNY-DSGE/CEF\_2017\_Workshop}{http://github.com/FRBNY-DSGE/CEF\_2017\_Workshop}
+  \href{http://github.com/FRBNY-DSGE/IADB\_2017\_Workshop}{http://github.com/FRBNY-DSGE/IADB\_2017\_Workshop}
   \end{center}
   \vspace{2em}
 
@@ -278,23 +262,23 @@
   \frametitle{Software Options}
 
   Install
-  \begin{enumerate}
+  \begin{itemize}
     \item Julia
     \item Packages (IJulia, QuantEcon.jl, DSGE.jl)
     \item IDE if you like (such as Juno)
-  \end{enumerate}
+  \end{itemize}
 
   \vspace{1em}
   Or
-  \begin{enumerate}
+  \begin{itemize}
     \item JuliaPro
-  \end{enumerate}
+  \end{itemize}
 
   \vspace{1em}
   Or don't install
-  \begin{enumerate}
+  \begin{itemize}
     \item JuliaBox (\href{juliabox.org}{juliabox.org}) TODO
-  \end{enumerate}
+  \end{itemize}
 
 \end{frame}
 
@@ -409,16 +393,16 @@
 \begin{frame}
 
   \begin{figure}
-    \includegraphics[width=\textwidth]{Inputs/languages.jpeg}
+    \includegraphics[width=\textwidth]{languages.jpeg}
   \end{figure}
 
-  But the curve is starting to shift ...
+  But the curve is starting to shift...
 \end{frame}
 
 \begin{frame}
 
   \begin{figure}
-    \includegraphics[width=\textwidth]{Inputs/languages_shifted.jpeg}
+    \includegraphics[width=\textwidth]{languages_shifted.jpeg}
   \end{figure}
 \end{frame}
 
