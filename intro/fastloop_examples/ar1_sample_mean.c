@@ -44,7 +44,7 @@ int main(void)
 
     gsl_rng_free (r);
 
-    printf("mean = %g\n", sample_mean);
     printf("time elapsed = %g seconds\n", cpu_time_used);
+    printf("mean = %g\n", sample_mean);
     return 0;
 }
