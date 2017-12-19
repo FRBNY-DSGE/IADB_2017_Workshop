@@ -1,5 +1,3 @@
 .ipynb_checkpoints
-
-*.h5
-*.jld
-*.html
+output_data/an_schorfheide/ss0/forecast
+output_data/ma1
