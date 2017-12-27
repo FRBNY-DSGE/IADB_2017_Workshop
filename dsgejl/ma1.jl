@@ -177,3 +177,7 @@ function DSGE.solve(m::MA1)
 
     return T, R, C
 end
+
+function DSGE.augment_states{T<:AbstractFloat}(m::MA1{T}, TTT::Matrix{T}, RRR::Matrix{T}, CCC::Vector{T})
+    return TTT, RRR, CCC
+end
